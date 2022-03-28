@@ -28,28 +28,28 @@ function generatePassword() {
         password.length = passWordLength;
 
         
-        var askLowercase = confirm("Include lowercase letters in your password?");
+        var isLowercase = confirm("Include lowercase letters in your password?");
         
-        var askUppercase = confirm("Include uppercase letters in your password?");
+        var isUppercase = confirm("Include uppercase letters in your password?");
         
-        var askNumeric = confirm("Include numbers in your password?");
+        var isNumber = confirm("Include numbers in your password?");
         
-        var askCharacters = confirm("Include sepcial characters in your password?");
+        var isCharacters = confirm("Include sepcial characters in your password?");
     }  else {
         alert("Please choose from 8-128 characters");
         return "Please Try again";
     }
     
-    if (askLowercase) {
+    if (isLowercase) {
         passwordValue += lowerCase;
     }
-    if (askUppercase) {
+    if (isUppercase) {
         passwordValue += upperCase;
     }
-    if (askNumeric) {
+    if (isNumber) {
         passwordValue += number;
     }
-    if (askCharacters) {
+    if (isCharacters) {
         passwordValue += symbols;
     } 
     
