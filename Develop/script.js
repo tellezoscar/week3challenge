@@ -3,7 +3,7 @@ var generateBtn = document.querySelector("#generate");
 const lowerCase = "abcdefghijklmnopqrstuvwxyz";
 const upperCase = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 const number = "0123456789";
-const symbols = "!@#$%^&*()_|}{[]:;?><,./-=+~`";
+const symbols = "`~!@#$%^&*()_+-=[]\{}|;'./:>?";
 const passWordLength = "";
 
 
